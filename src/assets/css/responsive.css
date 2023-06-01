@@ -1,0 +1,342 @@
+@media screen and (max-width: 1200px) {
+  /*====================form placeholder font==============*/
+
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+
+  ::-moz-placeholder {
+    font-size: 12px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  :-moz-placeholder {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .owl-carousel.owl-theme .owl-nav {
+    position: absolute;
+    top: unset;
+    left: unset;
+    right: 50%;
+    margin: 0;
+    bottom: -28px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /*_____ Navigation _____*/
+  .toggle {
+    display: flex;
+  }
+  header {
+    height: auto;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-flow: wrap;
+    float: none;
+    display: none;
+    height: auto;
+    background: rgb(255 255 255 / 90%);
+    padding: 20px 50px 15px;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    backdrop-filter: saturate(180%) blur(20px);
+    overflow: auto;
+    z-index: 2;
+  }
+
+  nav.active {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+  #nav {
+    align-items: center;
+    flex-flow: wrap;
+  }
+  #nav > li {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+  }
+  nav > ul > li > a {
+    font-size: 20px;
+  }
+  #nav > li > .sub {
+    position: static;
+    display: none;
+    width: 100%;
+    max-height: none;
+    background: transparent;
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+    margin: 0 auto !important;
+    border: 0;
+    border-radius: 0;
+    transition: none;
+    box-shadow: none;
+  }
+  #nav > li > .sub > li {
+    display: flex;
+    justify-content: center;
+  }
+  #nav > li > .sub > li > a {
+    background: transparent;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  nav #cta {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* -------------------footer-------------------- */
+  footer .flexRow > .col {
+    width: 100%;
+  }
+
+  /* main */
+
+  #banner .col {
+    padding-right: 0;
+  }
+
+  #intro .col {
+    width: calc(100% / 3);
+    padding: 10px;
+  }
+
+  #intro .flex {
+    justify-content: center;
+  }
+
+  #intro .col:nth-child(even) {
+    margin-top: 0px;
+  }
+
+  #policy .col {
+    width: 100%;
+  }
+
+  #policy .colr {
+    width: 100%;
+  }
+
+  #intro {
+    padding-bottom: 0;
+  }
+
+  #counter .colL {
+    width: 100%;
+    padding-right: 0rem;
+    padding-bottom: 25px;
+  }
+
+  #counter .colR {
+    width: 100%;
+    padding-left: 0rem;
+  }
+
+  #video .col {
+    width: 100%;
+    padding-right: 0px;
+    align-self: center;
+  }
+
+  #video .colr {
+    width: 100%;
+    position: relative;
+  }
+
+  section#video {
+    padding-bottom: 0;
+  }
+
+  #get_free_quote {
+    padding: 0;
+  }
+
+  .quote {
+    padding-bottom: 54px !important;
+  }
+
+  #insurances .col {
+    width: calc(100% / 2);
+  }
+
+  .policy .image {
+    margin: auto;
+  }
+
+  #risk .col {
+    width: calc(100% / 2);
+  }
+
+  #about-image .col {
+    width: 100%;
+  }
+
+  #about-image .colr {
+    width: 100%;
+  }
+
+  #about-image {
+    padding-bottom: 0;
+  }
+
+  .team .col {
+    width: 100%;
+  }
+  .we_work .flexRow > .col {
+    width: calc(100% / 2);
+  }
+
+  #contact .col {
+    width: 100%;
+  }
+
+  #contact .colr {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+
+  #contact .infoLst {
+    margin: -10px -10px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*_____ col-xx-? _____*/
+  .col-xx-12,
+  .col-xx-11,
+  .col-xx-10,
+  .col-xx-9,
+  .col-xx-8,
+  .col-xx-7,
+  .col-xx-6,
+  .col-xx-5,
+  .col-xx-4,
+  .col-xx-3,
+  .col-xx-2,
+  .col-xx-1 {
+    width: 100% !important;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  #banner .col {
+    width: 100%;
+  }
+
+  #banner .colr {
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  #banner h1 {
+    font-size: 30px;
+  }
+
+  #banner {
+    padding-bottom: 20px;
+  }
+
+  #intro .col {
+    width: calc(100% / 1);
+  }
+
+  #counter .flexRow > .col {
+    width: calc(100% / 2);
+  }
+
+  #counter .flexRow > .col .inner::before {
+    display: none;
+  }
+
+  #counter .flexRow > .col .inner::after {
+    display: none;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  #get_free_quote .inner_blk {
+    padding: 20px 10px;
+  }
+
+  .content_center {
+    margin: 0 auto 30px;
+  }
+
+  #employe-benefits .col {
+    width: calc(100% / 1);
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  #insurances .col {
+    width: calc(100% / 1);
+  }
+
+  .policy .image {
+    width: auto;
+  }
+
+  #risk .col {
+    width: calc(100% / 1);
+  }
+
+  .we_work .flexRow > .col {
+    width: calc(100% / 1);
+  }
+
+  #contact .infoLst > li {
+    width: 100%;
+  }
+
+  #contact .infoLst > li:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  #employe-benefits .col .inner {
+    display: block;
+  }
+
+  #employe-benefits .col .inner .text {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+
+  #get_free_quote .inner_blk:after,
+  #get_free_quote .inner_blk::before {
+    display: none;
+  }
+
+  .quote {
+    padding-bottom: 50px !important;
+  }
+}
